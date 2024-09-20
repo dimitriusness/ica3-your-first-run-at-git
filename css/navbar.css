@@ -1,3 +1,11 @@
 .navbar {
     background-color: blanchedalmond;
 }
+
+
+td, th{
+    border: 1px solid gray;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
