@@ -10,7 +10,7 @@
 <body>
     <div class="navbar">
         <ul>
-          <a href="./index.html"><li>Home</li></a>
+          <a href="../index.html"><li>Home</li></a>
           <a href="./page2.html"><li>Table</li></a>
           <a href="./page3.html"><li>Images</li></a>
           <a href="#"><li>Inputs</li></a>
@@ -20,11 +20,76 @@
     <p>this is page 4</p>
 
     <br><br><br>
-    <h3>Here are some inputs</h3>
+    <h3>What are some artists that I should check out???</h3>
 
-    <form action="./index.html">
-        <input type="">
+    <form action="../index.html">
+        <label for="your-name">Your Name:</label>
+        <br>
+        <input
+        type="text"
+        id="your-name"
+        name="your-name"
+        >
 
+        <br><br>
+        <label for="the-artist">Name of the Artist I should check out:</label>
+        <br>
+        <input
+        type="text"
+        id="the-artist"
+        name="the-artist"
+        >
+
+
+        <br><br>
+        <label for="what-is-it">What are you recommending from the artist?</label>
+        <br>
+        <input
+            type="checkbox" 
+            id="album"
+            name="album"
+        >
+        <label for="album">Album</label>
+        <br>
+        <input
+            type="checkbox" 
+            id="EP"
+            name="EP"
+        >
+        <label for="EP">EP</label>
+        <br>
+        <input
+            type="checkbox" 
+            id="Mixtape"
+            name="Mixtape"
+        >
+        <label for="Mixtape">Mixtape</label>
+        <br>
+        <input
+            type="checkbox" 
+            id="song"
+            name="song"
+        >
+        <label for="song">Song</label>
+        <br>
+        <input
+            type="checkbox" 
+            id="other"
+            name="other"
+        >
+        <label for="other">Other</label>
+        <br>
+
+
+
+        <p>Comments:<br>
+            <em>Tell me more! What are you recommending? What do you love so much about it? </em><br>
+            <textarea name="contest_entry" placeholder="50 words or less" rows="5" cols="50"></textarea>
+            </p>
+
+
+        <br>
+        <input type="submit">
     </form>
 
     
